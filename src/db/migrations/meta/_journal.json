@@ -29,6 +29,13 @@
       "when": 1752143213680,
       "tag": "0003_mysterious_rogue",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1752432793177,
+      "tag": "0004_black_maginty",
+      "breakpoints": true
     }
   ]
 }
