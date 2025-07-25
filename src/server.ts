@@ -7,11 +7,11 @@ import {
   type ZodTypeProvider,
 } from 'fastify-type-provider-zod'
 import { env } from './env.ts'
-import { createQuestionRoute } from './http/routes/create-question.ts'
-import { createRoomRoute } from './http/routes/create-room.ts'
-import { getRoomQuestionsRoute } from './http/routes/get-room-questions.ts'
-import { getRoomsRoute } from './http/routes/get-rooms.ts'
-import { uploadAudioRoute } from './http/routes/upload-audio.ts'
+import { createQuestionRoute } from './routes/create-question.ts'
+import { createRoomRoute } from './routes/create-room.ts'
+import { getRoomQuestionsRoute } from './routes/get-room-questions.ts'
+import { getRoomsRoute } from './routes/get-rooms.ts'
+import { uploadAudioRoute } from './routes/upload-audio.ts'
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
 
